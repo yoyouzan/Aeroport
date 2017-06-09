@@ -6,6 +6,10 @@ public class Voiture extends Vehicule{
 	private int puissance;
 	private float kilometrage;
 	
+	private float kilometrage2;
+	private float kilometrage3;
+	private float kilometrage4;
+	
 
 	public Voiture(String marque, int anneeAchat, float prixAchat, float cylindree, int nombrePortes, int puissance, float kilometrage) {
 		super(marque, anneeAchat, prixAchat);
